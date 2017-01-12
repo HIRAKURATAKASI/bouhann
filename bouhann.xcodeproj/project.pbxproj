@@ -14,6 +14,12 @@
 		4E52550F1E13949E00AF3DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E52550D1E13949E00AF3DF9 /* LaunchScreen.storyboard */; };
 		4E52551A1E13949E00AF3DF9 /* bouhannTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5255191E13949E00AF3DF9 /* bouhannTests.swift */; };
 		4E5255251E13949E00AF3DF9 /* bouhannUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5255241E13949E00AF3DF9 /* bouhannUITests.swift */; };
+		4EF19F7D1E14DF4200C9722E /* iti.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF19F7C1E14DF4200C9722E /* iti.png */; };
+		4EF19F7F1E14DF5100C9722E /* cellphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF19F7E1E14DF5100C9722E /* cellphone.png */; };
+		4EF19F811E14DF5D00C9722E /* buza.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF19F801E14DF5D00C9722E /* buza.png */; };
+		4EF19F831E14E3DF00C9722E /* BouhannViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF19F821E14E3DF00C9722E /* BouhannViewController.swift */; };
+		4EF19F851E14F03200C9722E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF19F841E14F03200C9722E /* Main.storyboard */; };
+		4EF19F871E14F04A00C9722E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF19F861E14F04A00C9722E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		4E5255201E13949E00AF3DF9 /* bouhannUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bouhannUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5255241E13949E00AF3DF9 /* bouhannUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bouhannUITests.swift; sourceTree = "<group>"; };
 		4E5255261E13949E00AF3DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF19F7C1E14DF4200C9722E /* iti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iti.png; sourceTree = "<group>"; };
+		4EF19F7E1E14DF5100C9722E /* cellphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellphone.png; sourceTree = "<group>"; };
+		4EF19F801E14DF5D00C9722E /* buza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buza.png; sourceTree = "<group>"; };
+		4EF19F821E14E3DF00C9722E /* BouhannViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouhannViewController.swift; sourceTree = "<group>"; };
+		4EF19F841E14F03200C9722E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4EF19F861E14F04A00C9722E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,15 @@
 		4E5255031E13949E00AF3DF9 /* bouhann */ = {
 			isa = PBXGroup;
 			children = (
+				4EF19F801E14DF5D00C9722E /* buza.png */,
+				4EF19F7E1E14DF5100C9722E /* cellphone.png */,
+				4EF19F7C1E14DF4200C9722E /* iti.png */,
 				4E5255041E13949E00AF3DF9 /* AppDelegate.swift */,
 				4E5255061E13949E00AF3DF9 /* ViewController.swift */,
+				4EF19F821E14E3DF00C9722E /* BouhannViewController.swift */,
 				4E5255081E13949E00AF3DF9 /* Main.storyboard */,
+				4EF19F861E14F04A00C9722E /* Main.storyboard */,
+				4EF19F841E14F03200C9722E /* Main.storyboard */,
 				4E52550B1E13949E00AF3DF9 /* Assets.xcassets */,
 				4E52550D1E13949E00AF3DF9 /* LaunchScreen.storyboard */,
 				4E5255101E13949E00AF3DF9 /* Info.plist */,
@@ -188,11 +206,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = mycompany;
 				TargetAttributes = {
 					4E5255001E13949E00AF3DF9 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E567EZ536K;
 						ProvisioningStyle = Automatic;
 					};
 					4E5255141E13949E00AF3DF9 = {
@@ -232,9 +251,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF19F851E14F03200C9722E /* Main.storyboard in Resources */,
+				4EF19F7D1E14DF4200C9722E /* iti.png in Resources */,
 				4E52550F1E13949E00AF3DF9 /* LaunchScreen.storyboard in Resources */,
+				4EF19F871E14F04A00C9722E /* Main.storyboard in Resources */,
 				4E52550C1E13949E00AF3DF9 /* Assets.xcassets in Resources */,
+				4EF19F7F1E14DF5100C9722E /* cellphone.png in Resources */,
 				4E52550A1E13949E00AF3DF9 /* Main.storyboard in Resources */,
+				4EF19F811E14DF5D00C9722E /* buza.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF19F831E14E3DF00C9722E /* BouhannViewController.swift in Sources */,
 				4E5255071E13949E00AF3DF9 /* ViewController.swift in Sources */,
 				4E5255051E13949E00AF3DF9 /* AppDelegate.swift in Sources */,
 			);
@@ -333,6 +358,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -382,6 +408,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E567EZ536K;
 				INFOPLIST_FILE = bouhann/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.bouhann;
@@ -422,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E567EZ536K;
 				INFOPLIST_FILE = bouhann/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.bouhann;
@@ -503,6 +532,7 @@
 				4E52552B1E13949E00AF3DF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E52552C1E13949E00AF3DF9 /* Build configuration list for PBXNativeTarget "bouhannTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +541,7 @@
 				4E52552E1E13949E00AF3DF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E52552F1E13949E00AF3DF9 /* Build configuration list for PBXNativeTarget "bouhannUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +550,7 @@
 				4E5255311E13949E00AF3DF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
