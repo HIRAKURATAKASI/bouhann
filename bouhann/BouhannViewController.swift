@@ -13,6 +13,9 @@ class BouhannViewController: UIViewController {
 
     var soundId:SystemSoundID = 1304
 
+    @IBAction func dennwa() {
+        UIApplication.shared.openURL(NSURL(string: "tel://08021845672")! as URL)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -37,9 +40,7 @@ class BouhannViewController: UIViewController {
     @IBAction func buza(){
         AudioServicesPlaySystemSound(soundId)
         }
-    @IBAction func dennwa(){
-        
-    }
+
     var audioPlayer : AVAudioPlayer!
     
 
