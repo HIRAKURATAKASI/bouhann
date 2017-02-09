@@ -80,6 +80,9 @@
                                 <rect key="frame" x="17" y="344" width="286" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="iti.png"/>
+                                <connections>
+                                    <action selector="iti" destination="bcX-hA-yS5" eventType="touchUpInside" id="Oz2-KL-PlY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMx-Fk-zeG">
                                 <rect key="frame" x="17" y="475" width="286" height="93"/>
