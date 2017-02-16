@@ -11,20 +11,22 @@ import AVFoundation
 import MessageUI
 
 class BouhannViewController: UIViewController,MFMailComposeViewControllerDelegate {
-
+    
     var soundId:SystemSoundID = 1304
     @IBAction func iti(){
         self.onClickStartMailerBtn()
         
         
     }
-
+    var saveData =  UserDefaults.standard
     @IBAction func dennwa() {
-        UIApplication.shared.openURL(NSURL(string: "tel://08021845672")! as URL)
+        let result = saveData.string(forKey: "電話番号")
+        print(result)
+        UIApplication.shared.openURL(NSURL(string: "tel://" + result!)! as URL)
     }
-       override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         super.viewDidLoad()
         
@@ -32,12 +34,12 @@ class BouhannViewController: UIViewController,MFMailComposeViewControllerDelegat
         let fileURL = URL(fileURLWithPath: "/System/Library/Audio/UISounds/alarm.caf")
         
         //AVAudioPlayerのインスタンス化
-
-            AudioServicesCreateSystemSoundID(fileURL as CFURL, &soundId)
-
+        
+        AudioServicesCreateSystemSoundID(fileURL as CFURL, &soundId)
+        
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -45,42 +47,58 @@ class BouhannViewController: UIViewController,MFMailComposeViewControllerDelegat
     
     @IBAction func buza(){
         AudioServicesPlaySystemSound(soundId)
-        }
+    }
     func onClickStartMailerBtn() {
         //メールを送信できるかチェック
-//        if MFMailComposeViewController.canSendMail()==false {
-//            print("メールが送られませんでした。再度メールを送ってください")
-//            return
-//        }
+        //        if MFMailComposeViewController.canSendMail()==false {
+        //            print("メールが送られませんでした。再度メールを送ってください")
+        //            return
+        //        }
         
         var mailViewController = MFMailComposeViewController()
         var toRecipients = ["to@1gmail.com"]
-        var CcRecipients = ["cc@1gmail.com","Cc2@1gmail.com"]
-        var BccRecipients = ["Bcc@1gmail.com","Bcc2@1gmail.com"]
-        
         
         mailViewController.mailComposeDelegate = self
         mailViewController.setSubject("メールの件名")
         mailViewController.setToRecipients(toRecipients) //Toアドレスの表示
-        mailViewController.setCcRecipients(CcRecipients) //Ccアドレスの表示
-        mailViewController.setBccRecipients(BccRecipients) //Bccアドレスの表示
         mailViewController.setMessageBody("メールの本文", isHTML: false)
         
         self.present(mailViewController, animated: true, completion: nil)
     }
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        
+        switch result.rawValue {
+        case MFMailComposeResult.cancelled.rawValue:
+            print("Email Send Cancelled")
+            break
+        case MFMailComposeResult.saved.rawValue:
+            print("Email Saved as a Draft")
+            break
+        case MFMailComposeResult.sent.rawValue:
+            print("Email Sent Successfully")
+            break
+        case MFMailComposeResult.failed.rawValue:
+            print("Email Send Failed")
+            break
+        default:
+            break
+        }
+        
+        self.self.dismiss(animated: true)
+    }
     var audioPlayer : AVAudioPlayer!
     
-
     
-
+    
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
