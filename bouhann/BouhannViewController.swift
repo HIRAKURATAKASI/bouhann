@@ -14,8 +14,10 @@ class BouhannViewController: UIViewController,MFMailComposeViewControllerDelegat
     
     var soundId:SystemSoundID = 1304
     @IBAction func iti(){
+        let mail = saveData.string(forKey: "mailadress")
+        print(mail)
         self.onClickStartMailerBtn()
-        
+        let adress = saveData
         
     }
     var saveData =  UserDefaults.standard
@@ -55,8 +57,8 @@ class BouhannViewController: UIViewController,MFMailComposeViewControllerDelegat
         //            return
         //        }
         
-        var mailViewController = MFMailComposeViewController()
-        var toRecipients = ["to@1gmail.com"]
+        let mailViewController = MFMailComposeViewController()
+        var toRecipients = ["mailadress"]
         
         mailViewController.mailComposeDelegate = self
         mailViewController.setSubject("メールの件名")

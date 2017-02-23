@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E0ECF9D1E5C6B660066E25E /* 設定.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0ECF9C1E5C6B660066E25E /* 設定.png */; };
 		4E498DF61E3A1BB400B8A764 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E498DF51E3A1BB400B8A764 /* CoreLocation.framework */; };
 		4E498DF81E4343FD00B8A764 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E498DF71E4343FD00B8A764 /* MessageUI.framework */; };
 		4E5255051E13949E00AF3DF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5255041E13949E00AF3DF9 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E0ECF9C1E5C6B660066E25E /* 設定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "設定.png"; path = "../../../Downloads/設定.png"; sourceTree = "<group>"; };
 		4E498DF51E3A1BB400B8A764 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4E498DF71E4343FD00B8A764 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		4E5255011E13949E00AF3DF9 /* bouhann.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bouhann.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 		4E5255031E13949E00AF3DF9 /* bouhann */ = {
 			isa = PBXGroup;
 			children = (
+				4E0ECF9C1E5C6B660066E25E /* 設定.png */,
 				4EF19F801E14DF5D00C9722E /* buza.png */,
 				4EF19F7E1E14DF5100C9722E /* cellphone.png */,
 				4EF19F7C1E14DF4200C9722E /* iti.png */,
@@ -224,7 +227,7 @@
 				TargetAttributes = {
 					4E5255001E13949E00AF3DF9 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = E567EZ536K;
+						DevelopmentTeam = UP3LGRAGZQ;
 						ProvisioningStyle = Automatic;
 					};
 					4E5255141E13949E00AF3DF9 = {
@@ -264,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0ECF9D1E5C6B660066E25E /* 設定.png in Resources */,
 				4EF19F7D1E14DF4200C9722E /* iti.png in Resources */,
 				4E52550F1E13949E00AF3DF9 /* LaunchScreen.storyboard in Resources */,
 				4E52550C1E13949E00AF3DF9 /* Assets.xcassets in Resources */,
@@ -449,10 +453,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E567EZ536K;
+				DEVELOPMENT_TEAM = UP3LGRAGZQ;
 				INFOPLIST_FILE = bouhann/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.bouhann;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eito.bouhann;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -462,10 +467,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E567EZ536K;
+				DEVELOPMENT_TEAM = UP3LGRAGZQ;
 				INFOPLIST_FILE = bouhann/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.bouhann;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eito.bouhann;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

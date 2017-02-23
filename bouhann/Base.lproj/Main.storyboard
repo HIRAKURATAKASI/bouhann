@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uG8-u2-fy7">
-                                <rect key="frame" x="0.0" y="61" width="320" height="99"/>
+                                <rect key="frame" x="0.0" y="61" width="320" height="507"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" title="防犯"/>
@@ -55,19 +55,8 @@
                                 <rect key="frame" x="152" y="170" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYI-4M-6RO">
-                                <rect key="frame" x="21" y="80" width="279" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="cellphone.png">
-                                    <color key="titleColor" red="0.21192890196933112" green="0.50141165874427407" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="1" green="0.52943270655793717" blue="0.4214941274499443" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="dennwa" destination="bcX-hA-yS5" eventType="touchUpInside" id="Cs3-d9-zMU"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTF-xp-aIq">
-                                <rect key="frame" x="18" y="208" width="286" height="76"/>
+                                <rect key="frame" x="25" y="197" width="270" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="buza.png">
                                     <color key="titleShadowColor" red="0.22406870736037543" green="0.51735954643754523" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -77,18 +66,28 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avv-0b-5xm">
-                                <rect key="frame" x="17" y="344" width="286" height="64"/>
+                                <rect key="frame" x="25" y="315" width="270" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="iti.png"/>
                                 <connections>
                                     <action selector="iti" destination="bcX-hA-yS5" eventType="touchUpInside" id="Oz2-KL-PlY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMx-Fk-zeG">
-                                <rect key="frame" x="17" y="475" width="286" height="93"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYI-4M-6RO">
+                                <rect key="frame" x="25" y="82" width="270" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="設定"/>
+                                <state key="normal" image="cellphone.png">
+                                    <color key="titleColor" red="0.21192890196933112" green="0.50141165874427407" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="1" green="0.52943270655793717" blue="0.4214941274499443" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dennwa" destination="bcX-hA-yS5" eventType="touchUpInside" id="Cs3-d9-zMU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMx-Fk-zeG">
+                                <rect key="frame" x="25" y="430" width="270" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="設定.png"/>
                                 <connections>
                                     <segue destination="3uE-xh-mdA" kind="show" id="fFV-l8-ant"/>
                                 </connections>
@@ -142,7 +141,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBN-eO-6QM">
-                                <rect key="frame" x="145" y="489" width="31" height="30"/>
+                                <rect key="frame" x="145" y="269" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="変更"/>
                                 <connections>
@@ -184,5 +183,6 @@
         <image name="buza.png" width="64" height="64"/>
         <image name="cellphone.png" width="64" height="64"/>
         <image name="iti.png" width="64" height="64"/>
+        <image name="設定.png" width="64" height="64"/>
     </resources>
 </document>

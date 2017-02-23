@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SetteiViewController: UIViewController{
+class SetteiViewController: UIViewController,UITextFieldDelegate{
     
     
     
@@ -18,7 +18,7 @@ class SetteiViewController: UIViewController{
     var saveData = UserDefaults.standard
     @IBAction func save() {
         saveData.set(dennwaTextField.text, forKey:"電話番号")
-        saveData.set(mailTextField.text, forKey:"メールアドレス")
+        saveData.set(mailTextField.text, forKey:"mailadress")
         saveData.synchronize()
         //アラートを出す
         let alert = UIAlertController(title:"保存",message:"保存が完了しました",preferredStyle: .alert)
@@ -26,15 +26,19 @@ class SetteiViewController: UIViewController{
         alert.addAction(UIAlertAction(title: "OK", style: .default))
         self.present(alert, animated: true, completion: nil)
         // Do any additional setup after loading the view.
-        
+    
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        dennwaTextField.delegate = self
+        mailTextField.delegate = self
         dennwaTextField.text = saveData.object(forKey: "電話番号")as? String
-        mailTextField.text = saveData.object(forKey: "メールアドレス")as? String
+        mailTextField.text = saveData.object(forKey: "mailadress")as? String
     }
-    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
