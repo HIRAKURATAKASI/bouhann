@@ -9,21 +9,6 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>testwidget.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>widget.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>ヴィジェット.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>ヴィジェット.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +18,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>4E04970F1E681E8F007E3883</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E1389721E683F2E0075A69B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E1389861E68403C0075A69B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

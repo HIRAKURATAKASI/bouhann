@@ -15,7 +15,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4E04970F1E681E8F007E3883"
+               BlueprintIdentifier = "4E1389861E68403C0075A69B"
                BuildableName = "&#x30a6;&#x3099;&#x30a3;&#x30b7;&#x3099;&#x30a7;&#x30c3;&#x30c8;.appex"
                BlueprintName = "&#x30f4;&#x30a3;&#x30b8;&#x30a7;&#x30c3;&#x30c8;"
                ReferencedContainer = "container:bouhann.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E04970F1E681E8F007E3883"
+            BlueprintIdentifier = "4E1389861E68403C0075A69B"
             BuildableName = "&#x30a6;&#x3099;&#x30a3;&#x30b7;&#x3099;&#x30a7;&#x30c3;&#x30c8;.appex"
             BlueprintName = "&#x30f4;&#x30a3;&#x30b8;&#x30a7;&#x30c3;&#x30c8;"
             ReferencedContainer = "container:bouhann.xcodeproj">

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E0497121E681E8F007E3883 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0497111E681E8F007E3883 /* NotificationCenter.framework */; };
-		4E0497151E681E8F007E3883 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0497141E681E8F007E3883 /* TodayViewController.swift */; };
-		4E0497181E681E8F007E3883 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0497161E681E8F007E3883 /* MainInterface.storyboard */; };
-		4E04971C1E681E8F007E3883 /* ヴィジェット.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E0497101E681E8F007E3883 /* ヴィジェット.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4E0497241E682B37007E3883 /* vidgetdennwa.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0497231E682B37007E3883 /* vidgetdennwa.png */; };
 		4E0497281E682D04007E3883 /* vidgeiti.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0497271E682D04007E3883 /* vidgeiti.png */; };
 		4E0ECF9D1E5C6B660066E25E /* 設定.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0ECF9C1E5C6B660066E25E /* 設定.png */; };
+		4E1389881E68403D0075A69B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0497111E681E8F007E3883 /* NotificationCenter.framework */; };
+		4E13898B1E68403D0075A69B /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13898A1E68403D0075A69B /* TodayViewController.swift */; };
+		4E13898E1E68403D0075A69B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E13898C1E68403D0075A69B /* MainInterface.storyboard */; };
+		4E1389921E68403D0075A69B /* ヴィジェット.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E1389871E68403C0075A69B /* ヴィジェット.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4E498DF61E3A1BB400B8A764 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E498DF51E3A1BB400B8A764 /* CoreLocation.framework */; };
 		4E498DF81E4343FD00B8A764 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E498DF71E4343FD00B8A764 /* MessageUI.framework */; };
 		4E5255051E13949E00AF3DF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5255041E13949E00AF3DF9 /* AppDelegate.swift */; };
@@ -28,20 +28,15 @@
 		4EF19F7F1E14DF5100C9722E /* cellphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF19F7E1E14DF5100C9722E /* cellphone.png */; };
 		4EF19F811E14DF5D00C9722E /* buza.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF19F801E14DF5D00C9722E /* buza.png */; };
 		4EF19F831E14E3DF00C9722E /* BouhannViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF19F821E14E3DF00C9722E /* BouhannViewController.swift */; };
-		4EFD48C11E683669004FDA8F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0497111E681E8F007E3883 /* NotificationCenter.framework */; };
 		4EFD48CF1E683771004FDA8F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0497111E681E8F007E3883 /* NotificationCenter.framework */; };
-		4EFD48D81E683906004FDA8F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0497111E681E8F007E3883 /* NotificationCenter.framework */; };
-		4EFD48DB1E683906004FDA8F /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD48DA1E683906004FDA8F /* TodayViewController.swift */; };
-		4EFD48DE1E683906004FDA8F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD48DC1E683906004FDA8F /* MainInterface.storyboard */; };
-		4EFD48E21E683906004FDA8F /* testwidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4EFD48D71E683905004FDA8F /* testwidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4E04971A1E681E8F007E3883 /* PBXContainerItemProxy */ = {
+		4E1389901E68403D0075A69B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4E5254F91E13949E00AF3DF9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E04970F1E681E8F007E3883;
+			remoteGlobalIDString = 4E1389861E68403C0075A69B;
 			remoteInfo = "ヴィジェット";
 		};
 		4E5255161E13949E00AF3DF9 /* PBXContainerItemProxy */ = {
@@ -58,24 +53,16 @@
 			remoteGlobalIDString = 4E5255001E13949E00AF3DF9;
 			remoteInfo = bouhann;
 		};
-		4EFD48E01E683906004FDA8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4E5254F91E13949E00AF3DF9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EFD48D61E683905004FDA8F;
-			remoteInfo = testwidget;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4E0497201E681E8F007E3883 /* Embed App Extensions */ = {
+		4E1389821E683F2E0075A69B /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4EFD48E21E683906004FDA8F /* testwidget.appex in Embed App Extensions */,
-				4E04971C1E681E8F007E3883 /* ヴィジェット.appex in Embed App Extensions */,
+				4E1389921E68403D0075A69B /* ヴィジェット.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,7 +70,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4E0497101E681E8F007E3883 /* ヴィジェット.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ヴィジェット.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E0497111E681E8F007E3883 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		4E0497141E681E8F007E3883 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TodayViewController.swift; path = "../ヴィジェット/TodayViewController.swift"; sourceTree = "<group>"; };
 		4E0497171E681E8F007E3883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../ヴィジェット/Base.lproj/MainInterface.storyboard"; sourceTree = "<group>"; };
@@ -91,6 +77,10 @@
 		4E0497231E682B37007E3883 /* vidgetdennwa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vidgetdennwa.png; path = ../../../Downloads/vidgetdennwa.png; sourceTree = "<group>"; };
 		4E0497271E682D04007E3883 /* vidgeiti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vidgeiti.png; path = ../../../Downloads/vidgeiti.png; sourceTree = "<group>"; };
 		4E0ECF9C1E5C6B660066E25E /* 設定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "設定.png"; path = "../../../Downloads/設定.png"; sourceTree = "<group>"; };
+		4E1389871E68403C0075A69B /* ヴィジェット.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ヴィジェット.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E13898A1E68403D0075A69B /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TodayViewController.swift; path = "../ヴィジェット/TodayViewController.swift"; sourceTree = "<group>"; };
+		4E13898D1E68403D0075A69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../ヴィジェット/Base.lproj/MainInterface.storyboard"; sourceTree = "<group>"; };
+		4E13898F1E68403D0075A69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../ヴィジェット/Info.plist"; sourceTree = "<group>"; };
 		4E498DF51E3A1BB400B8A764 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4E498DF71E4343FD00B8A764 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		4E5255011E13949E00AF3DF9 /* bouhann.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bouhann.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,19 +101,14 @@
 		4EF19F7E1E14DF5100C9722E /* cellphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellphone.png; sourceTree = "<group>"; };
 		4EF19F801E14DF5D00C9722E /* buza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buza.png; sourceTree = "<group>"; };
 		4EF19F821E14E3DF00C9722E /* BouhannViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouhannViewController.swift; sourceTree = "<group>"; };
-		4EFD48C01E683669004FDA8F /* widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EFD48D71E683905004FDA8F /* testwidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = testwidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EFD48DA1E683906004FDA8F /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
-		4EFD48DD1E683906004FDA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		4EFD48DF1E683906004FDA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E04970D1E681E8F007E3883 /* Frameworks */ = {
+		4E1389841E68403C0075A69B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E0497121E681E8F007E3883 /* NotificationCenter.framework in Frameworks */,
+				4E1389881E68403D0075A69B /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,22 +136,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EFD48BD1E683669004FDA8F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EFD48C11E683669004FDA8F /* NotificationCenter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EFD48D41E683905004FDA8F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EFD48D81E683906004FDA8F /* NotificationCenter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -178,6 +147,16 @@
 				4E0497191E681E8F007E3883 /* Info.plist */,
 			);
 			name = "ット";
+			path = "ヴィジェット";
+			sourceTree = "<group>";
+		};
+		4E1389891E68403D0075A69B /* ヴィジェット */ = {
+			isa = PBXGroup;
+			children = (
+				4E13898A1E68403D0075A69B /* TodayViewController.swift */,
+				4E13898C1E68403D0075A69B /* MainInterface.storyboard */,
+				4E13898F1E68403D0075A69B /* Info.plist */,
+			);
 			path = "ヴィジェット";
 			sourceTree = "<group>";
 		};
@@ -198,7 +177,7 @@
 				4E5255181E13949E00AF3DF9 /* bouhannTests */,
 				4E5255231E13949E00AF3DF9 /* bouhannUITests */,
 				4E0497131E681E8F007E3883 /* ット */,
-				4EFD48D91E683906004FDA8F /* testwidget */,
+				4E1389891E68403D0075A69B /* ヴィジェット */,
 				4E5255021E13949E00AF3DF9 /* Products */,
 				4E498DF41E3A1BB400B8A764 /* Frameworks */,
 			);
@@ -210,9 +189,7 @@
 				4E5255011E13949E00AF3DF9 /* bouhann.app */,
 				4E5255151E13949E00AF3DF9 /* bouhannTests.xctest */,
 				4E5255201E13949E00AF3DF9 /* bouhannUITests.xctest */,
-				4E0497101E681E8F007E3883 /* ヴィジェット.appex */,
-				4EFD48C01E683669004FDA8F /* widget.appex */,
-				4EFD48D71E683905004FDA8F /* testwidget.appex */,
+				4E1389871E68403C0075A69B /* ヴィジェット.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,26 +233,16 @@
 			path = bouhannUITests;
 			sourceTree = "<group>";
 		};
-		4EFD48D91E683906004FDA8F /* testwidget */ = {
-			isa = PBXGroup;
-			children = (
-				4EFD48DA1E683906004FDA8F /* TodayViewController.swift */,
-				4EFD48DC1E683906004FDA8F /* MainInterface.storyboard */,
-				4EFD48DF1E683906004FDA8F /* Info.plist */,
-			);
-			path = testwidget;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4E04970F1E681E8F007E3883 /* ヴィジェット */ = {
+		4E1389861E68403C0075A69B /* ヴィジェット */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E04971F1E681E8F007E3883 /* Build configuration list for PBXNativeTarget "ヴィジェット" */;
+			buildConfigurationList = 4E1389931E68403D0075A69B /* Build configuration list for PBXNativeTarget "ヴィジェット" */;
 			buildPhases = (
-				4E04970C1E681E8F007E3883 /* Sources */,
-				4E04970D1E681E8F007E3883 /* Frameworks */,
-				4E04970E1E681E8F007E3883 /* Resources */,
+				4E1389831E68403C0075A69B /* Sources */,
+				4E1389841E68403C0075A69B /* Frameworks */,
+				4E1389851E68403C0075A69B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +250,7 @@
 			);
 			name = "ヴィジェット";
 			productName = "ヴィジェット";
-			productReference = 4E0497101E681E8F007E3883 /* ヴィジェット.appex */;
+			productReference = 4E1389871E68403C0075A69B /* ヴィジェット.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		4E5255001E13949E00AF3DF9 /* bouhann */ = {
@@ -293,13 +260,12 @@
 				4E5254FD1E13949E00AF3DF9 /* Sources */,
 				4E5254FE1E13949E00AF3DF9 /* Frameworks */,
 				4E5254FF1E13949E00AF3DF9 /* Resources */,
-				4E0497201E681E8F007E3883 /* Embed App Extensions */,
+				4E1389821E683F2E0075A69B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E04971B1E681E8F007E3883 /* PBXTargetDependency */,
-				4EFD48E11E683906004FDA8F /* PBXTargetDependency */,
+				4E1389911E68403D0075A69B /* PBXTargetDependency */,
 			);
 			name = bouhann;
 			productName = bouhann;
@@ -342,40 +308,6 @@
 			productReference = 4E5255201E13949E00AF3DF9 /* bouhannUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		4EFD48BF1E683669004FDA8F /* widget */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EFD48CC1E683669004FDA8F /* Build configuration list for PBXNativeTarget "widget" */;
-			buildPhases = (
-				4EFD48BC1E683669004FDA8F /* Sources */,
-				4EFD48BD1E683669004FDA8F /* Frameworks */,
-				4EFD48BE1E683669004FDA8F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = widget;
-			productName = widget;
-			productReference = 4EFD48C01E683669004FDA8F /* widget.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		4EFD48D61E683905004FDA8F /* testwidget */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4EFD48E31E683906004FDA8F /* Build configuration list for PBXNativeTarget "testwidget" */;
-			buildPhases = (
-				4EFD48D31E683905004FDA8F /* Sources */,
-				4EFD48D41E683905004FDA8F /* Frameworks */,
-				4EFD48D51E683905004FDA8F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = testwidget;
-			productName = testwidget;
-			productReference = 4EFD48D71E683905004FDA8F /* testwidget.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -386,7 +318,7 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = mycompany;
 				TargetAttributes = {
-					4E04970F1E681E8F007E3883 = {
+					4E1389861E68403C0075A69B = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = UP3LGRAGZQ;
 						ProvisioningStyle = Automatic;
@@ -406,16 +338,6 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4E5255001E13949E00AF3DF9;
 					};
-					4EFD48BF1E683669004FDA8F = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = UP3LGRAGZQ;
-						ProvisioningStyle = Automatic;
-					};
-					4EFD48D61E683905004FDA8F = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = UP3LGRAGZQ;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = 4E5254FC1E13949E00AF3DF9 /* Build configuration list for PBXProject "bouhann" */;
@@ -434,19 +356,17 @@
 				4E5255001E13949E00AF3DF9 /* bouhann */,
 				4E5255141E13949E00AF3DF9 /* bouhannTests */,
 				4E52551F1E13949E00AF3DF9 /* bouhannUITests */,
-				4E04970F1E681E8F007E3883 /* ヴィジェット */,
-				4EFD48BF1E683669004FDA8F /* widget */,
-				4EFD48D61E683905004FDA8F /* testwidget */,
+				4E1389861E68403C0075A69B /* ヴィジェット */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4E04970E1E681E8F007E3883 /* Resources */ = {
+		4E1389851E68403C0075A69B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E0497181E681E8F007E3883 /* MainInterface.storyboard in Resources */,
+				4E13898E1E68403D0075A69B /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,29 +400,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EFD48BE1E683669004FDA8F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EFD48D51E683905004FDA8F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EFD48DE1E683906004FDA8F /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E04970C1E681E8F007E3883 /* Sources */ = {
+		4E1389831E68403C0075A69B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E0497151E681E8F007E3883 /* TodayViewController.swift in Sources */,
+				4E13898B1E68403D0075A69B /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,28 +438,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EFD48BC1E683669004FDA8F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EFD48D31E683905004FDA8F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EFD48DB1E683906004FDA8F /* TodayViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E04971B1E681E8F007E3883 /* PBXTargetDependency */ = {
+		4E1389911E68403D0075A69B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E04970F1E681E8F007E3883 /* ヴィジェット */;
-			targetProxy = 4E04971A1E681E8F007E3883 /* PBXContainerItemProxy */;
+			target = 4E1389861E68403C0075A69B /* ヴィジェット */;
+			targetProxy = 4E1389901E68403D0075A69B /* PBXContainerItemProxy */;
 		};
 		4E5255171E13949E00AF3DF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -566,11 +456,6 @@
 			target = 4E5255001E13949E00AF3DF9 /* bouhann */;
 			targetProxy = 4E5255211E13949E00AF3DF9 /* PBXContainerItemProxy */;
 		};
-		4EFD48E11E683906004FDA8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4EFD48D61E683905004FDA8F /* testwidget */;
-			targetProxy = 4EFD48E01E683906004FDA8F /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -578,6 +463,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				4E0497171E681E8F007E3883 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		4E13898C1E68403D0075A69B /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E13898D1E68403D0075A69B /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -598,23 +491,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		4EFD48DC1E683906004FDA8F /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4EFD48DD1E683906004FDA8F /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4E04971D1E681E8F007E3883 /* Debug */ = {
+		4E1389941E68403D0075A69B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = UP3LGRAGZQ;
 				INFOPLIST_FILE = "ヴィジェット/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eito.bouhann.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -623,12 +508,12 @@
 			};
 			name = Debug;
 		};
-		4E04971E1E681E8F007E3883 /* Release */ = {
+		4E1389951E68403D0075A69B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = UP3LGRAGZQ;
 				INFOPLIST_FILE = "ヴィジェット/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eito.bouhann.--------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -815,73 +700,16 @@
 			};
 			name = Release;
 		};
-		4EFD48CD1E683669004FDA8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = UP3LGRAGZQ;
-				INFOPLIST_FILE = widget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eito.bouhann.widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		4EFD48CE1E683669004FDA8F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = UP3LGRAGZQ;
-				INFOPLIST_FILE = widget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eito.bouhann.widget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		4EFD48E41E683906004FDA8F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = UP3LGRAGZQ;
-				INFOPLIST_FILE = testwidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eito.bouhann.testwidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		4EFD48E51E683906004FDA8F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = UP3LGRAGZQ;
-				INFOPLIST_FILE = testwidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eito.bouhann.testwidget;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E04971F1E681E8F007E3883 /* Build configuration list for PBXNativeTarget "ヴィジェット" */ = {
+		4E1389931E68403D0075A69B /* Build configuration list for PBXNativeTarget "ヴィジェット" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E04971D1E681E8F007E3883 /* Debug */,
-				4E04971E1E681E8F007E3883 /* Release */,
+				4E1389941E68403D0075A69B /* Debug */,
+				4E1389951E68403D0075A69B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		4E5254FC1E13949E00AF3DF9 /* Build configuration list for PBXProject "bouhann" */ = {
 			isa = XCConfigurationList;
@@ -918,22 +746,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		4EFD48CC1E683669004FDA8F /* Build configuration list for PBXNativeTarget "widget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EFD48CD1E683669004FDA8F /* Debug */,
-				4EFD48CE1E683669004FDA8F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4EFD48E31E683906004FDA8F /* Build configuration list for PBXNativeTarget "testwidget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EFD48E41E683906004FDA8F /* Debug */,
-				4EFD48E51E683906004FDA8F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
