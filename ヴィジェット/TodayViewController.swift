@@ -10,6 +10,13 @@ import UIKit
 import NotificationCenter
 
 class TodayViewController: UIViewController, NCWidgetProviding {
+    
+    @IBOutlet var label: UILabel!
+    @IBAction func dennwawidget(sender: AnyObject){
+       
+        
+    self.updateLabel()
+    }
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,14 +28,16 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         // Dispose of any resources that can be recreated.
     }
     
-    func widgetPerformUpdate(completionHandler: (@escaping (NCUpdateResult) -> Void)) {
-        // Perform any setup necessary in order to update the view.
-        
-        // If an error is encountered, use NCUpdateResult.Failed
-        // If there's no update required, use NCUpdateResult.NoData
-        // If there's an update, use NCUpdateResult.NewData
-        
+    func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)!)
+    {
+        self.updateLabel()
         completionHandler(NCUpdateResult.newData)
     }
     
+    func updateLabel()
+    {
+        var dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd hh:mm:ss"
+        self.label.text = dateFormatter.string(from: NSDate() as Date)
+    }
 }
