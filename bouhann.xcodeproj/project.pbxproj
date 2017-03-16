@@ -11,8 +11,6 @@
 		4E0497281E682D04007E3883 /* vidgeiti.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0497271E682D04007E3883 /* vidgeiti.png */; };
 		4E0ECF9D1E5C6B660066E25E /* 設定.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0ECF9C1E5C6B660066E25E /* 設定.png */; };
 		4E1389881E68403D0075A69B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0497111E681E8F007E3883 /* NotificationCenter.framework */; };
-		4E13898B1E68403D0075A69B /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13898A1E68403D0075A69B /* TodayViewController.swift */; };
-		4E13898E1E68403D0075A69B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E13898C1E68403D0075A69B /* MainInterface.storyboard */; };
 		4E1389921E68403D0075A69B /* ヴィジェット.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E1389871E68403C0075A69B /* ヴィジェット.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4E498DF61E3A1BB400B8A764 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E498DF51E3A1BB400B8A764 /* CoreLocation.framework */; };
 		4E498DF81E4343FD00B8A764 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E498DF71E4343FD00B8A764 /* MessageUI.framework */; };
@@ -71,16 +69,10 @@
 
 /* Begin PBXFileReference section */
 		4E0497111E681E8F007E3883 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		4E0497141E681E8F007E3883 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TodayViewController.swift; path = "../ヴィジェット/TodayViewController.swift"; sourceTree = "<group>"; };
-		4E0497171E681E8F007E3883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../ヴィジェット/Base.lproj/MainInterface.storyboard"; sourceTree = "<group>"; };
-		4E0497191E681E8F007E3883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../ヴィジェット/Info.plist"; sourceTree = "<group>"; };
 		4E0497231E682B37007E3883 /* vidgetdennwa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vidgetdennwa.png; path = ../../../Downloads/vidgetdennwa.png; sourceTree = "<group>"; };
 		4E0497271E682D04007E3883 /* vidgeiti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vidgeiti.png; path = ../../../Downloads/vidgeiti.png; sourceTree = "<group>"; };
 		4E0ECF9C1E5C6B660066E25E /* 設定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "設定.png"; path = "../../../Downloads/設定.png"; sourceTree = "<group>"; };
 		4E1389871E68403C0075A69B /* ヴィジェット.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ヴィジェット.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E13898A1E68403D0075A69B /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TodayViewController.swift; path = "../ヴィジェット/TodayViewController.swift"; sourceTree = "<group>"; };
-		4E13898D1E68403D0075A69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../ヴィジェット/Base.lproj/MainInterface.storyboard"; sourceTree = "<group>"; };
-		4E13898F1E68403D0075A69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../ヴィジェット/Info.plist"; sourceTree = "<group>"; };
 		4E498DF51E3A1BB400B8A764 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4E498DF71E4343FD00B8A764 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		4E5255011E13949E00AF3DF9 /* bouhann.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bouhann.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,27 +131,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E0497131E681E8F007E3883 /* ット */ = {
-			isa = PBXGroup;
-			children = (
-				4E0497141E681E8F007E3883 /* TodayViewController.swift */,
-				4E0497161E681E8F007E3883 /* MainInterface.storyboard */,
-				4E0497191E681E8F007E3883 /* Info.plist */,
-			);
-			name = "ット";
-			path = "ヴィジェット";
-			sourceTree = "<group>";
-		};
-		4E1389891E68403D0075A69B /* ヴィジェット */ = {
-			isa = PBXGroup;
-			children = (
-				4E13898A1E68403D0075A69B /* TodayViewController.swift */,
-				4E13898C1E68403D0075A69B /* MainInterface.storyboard */,
-				4E13898F1E68403D0075A69B /* Info.plist */,
-			);
-			path = "ヴィジェット";
-			sourceTree = "<group>";
-		};
 		4E498DF41E3A1BB400B8A764 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,8 +147,6 @@
 				4E5255031E13949E00AF3DF9 /* bouhann */,
 				4E5255181E13949E00AF3DF9 /* bouhannTests */,
 				4E5255231E13949E00AF3DF9 /* bouhannUITests */,
-				4E0497131E681E8F007E3883 /* ット */,
-				4E1389891E68403D0075A69B /* ヴィジェット */,
 				4E5255021E13949E00AF3DF9 /* Products */,
 				4E498DF41E3A1BB400B8A764 /* Frameworks */,
 			);
@@ -366,7 +335,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E13898E1E68403D0075A69B /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +375,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E13898B1E68403D0075A69B /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,22 +426,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4E0497161E681E8F007E3883 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E0497171E681E8F007E3883 /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-		4E13898C1E68403D0075A69B /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E13898D1E68403D0075A69B /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
 		4E5255081E13949E00AF3DF9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -619,7 +570,6 @@
 		4E52552A1E13949E00AF3DF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UP3LGRAGZQ;
 				INFOPLIST_FILE = bouhann/Info.plist;
@@ -634,7 +584,6 @@
 		4E52552B1E13949E00AF3DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UP3LGRAGZQ;
 				INFOPLIST_FILE = bouhann/Info.plist;
@@ -710,6 +659,7 @@
 				4E1389951E68403D0075A69B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E5254FC1E13949E00AF3DF9 /* Build configuration list for PBXProject "bouhann" */ = {
 			isa = XCConfigurationList;
